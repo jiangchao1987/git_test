@@ -1,0 +1,18 @@
+git init
+git add .
+git add xxxx
+git status
+git rm --cached xxxx
+git log
+git rm xxxx
+git commit -m 'ooooo'
+git config --global user.name "jiangchao1987"
+git config --global user.email jiangchao1987@gmail.com
+git remote add github git@github.com:jiangchao1987/git_test.git
+git push github master
+git branch test_branch
+git checkout test_branch
+git push github test_branch
+git push github test_branch:master
+git fetch github
+git merge github/master
