@@ -6,8 +6,12 @@ git rm --cached xxxx
 git log
 git rm xxxx
 git commit -m 'ooooo'
+//配置全局用户名和邮箱
 git config --global user.name "jiangchao1987"
 git config --global user.email jiangchao1987@gmail.com
+//为特定的版本库配置用户名和电子邮件地址
+git config user.name "jiangchao"
+git config user.email "jiangchao@xiaomi.com"
 git remote add github git@github.com:jiangchao1987/git_test.github	//设定远程地址并且命名
 git push github master	//git push <remote repository> <local branch>
 git branch test_branch
@@ -16,3 +20,7 @@ git push github test_branch	//git push <remote repository> <local branch>
 git push github test_branch:master	//git push <remote repository> <local branch>:<remote branch>
 git fetch github
 git merge github/master	//把远程master分支合并到当前分支上
+git branch -r	//显示远程分支
+git branch	//显示本地分支
+git branch -a	//查看所有branch
+git branch -D  (-d)  （branch name）	//删除branch
