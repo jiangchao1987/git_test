@@ -8,11 +8,11 @@ git rm xxxx
 git commit -m 'ooooo'
 git config --global user.name "jiangchao1987"
 git config --global user.email jiangchao1987@gmail.com
-git remote add github git@github.com:jiangchao1987/git_test.git
-git push github master
+git remote add github git@github.com:jiangchao1987/git_test.github	//设定远程地址并且命名
+git push github master	//git push <remote repository> <local branch>
 git branch test_branch
 git checkout test_branch
-git push github test_branch
-git push github test_branch:master
+git push github test_branch	//git push <remote repository> <local branch>
+git push github test_branch:master	//git push <remote repository> <local branch>:<remote branch>
 git fetch github
-git merge github/master
+git merge github/master	//把远程master分支合并到当前分支上
