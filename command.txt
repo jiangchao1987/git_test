@@ -26,3 +26,7 @@ git branch -a	//查看所有branch
 git branch -D  (-d)  （branch name）	//删除branch
 git log -1
 git show 216ed7ee05cded7933bd732029de144214f944c7
+git status
+git stash
+git status
+git stash pop
