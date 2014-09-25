@@ -30,3 +30,7 @@ git status
 git stash
 git status
 git stash pop
+git log -- Bootstrap.php
+gitk Bootstrap.php	//查看某个文件的更新日志
+git log -p Bootstrap.php	//查看某个文件的更新记录
+git log --follow -p Bootstrap.php
