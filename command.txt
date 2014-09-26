@@ -18,6 +18,7 @@ git branch test_branch
 git checkout test_branch
 git push github test_branch	//git push <remote repository> <local branch>
 git push github test_branch:master	//git push <remote repository> <local branch>:<remote branch>
+git pull
 git fetch github
 git merge github/master	//把远程master分支合并到当前分支上
 git branch -r	//显示远程分支
