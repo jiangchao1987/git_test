@@ -1128,7 +1128,9 @@ public class SnailCommplatform {
 
 	//测试
 	public String aa(){
-		return "11111111";
+  		String s = "21shhhhhhhhjkdahdas";
+		return s;
+
 	}
 
 }
